@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            background-color: #414141;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>form</h1>
+    <form action="" accept-charset="utf-8" autocomplete="off" method="post">
+        <label for="ftname">First name</label>
+        <input type="text" name="" id="ftname" placeholder="firstname" required><br>
+        <label for="ltname">Last name</label>
+        <input type="text" name="" id="ltname" placeholder="lastname"><br>
+        <label for="myemail">Email</label>
+        <input type="email" name="" id="myemail" placeholder="email" required><br>
+        <label for="pass">password</label>
+        <input type="password" name="" id="pass"><br>
+        <label for="monthm"> month of joining</label>
+        <input type="month" name="month" id="monthm"><br>
+        <label for="dt">date and time</label>
+        <input type="datetime" name="" id="dt"><br>
+        <label for="dtl">datetime-local</label>
+        <input type="datetime-local" name="" id="dtl"><br>
+        <label for="co">choose your colour</label>
+        <input type="color" name="" id="co"><br>
+        <label for="assignment">FILE</label>
+        <input type="file" name="" id="assignment" required><br>
+        <label for="cc">code</label>
+        <input type="text" name="" id="cc"><br>
+        
+       <input type="submit" value="submit now">
+        <input type="reset" value="reset"><br>
+
+         <label for="sound">volume</label>
+      <input type="range" name="" id="sound" max="20" min="10" step="2">
+
+      <fieldset>
+          <legend> your gender</legend>
+        <div>
+            <label for="malege">male</label>
+            <input type="radio" name="gender" id="malege">
+        </div>
+        <div>
+            <label for="femalge">female</label>
+            <input type="radio" name="gender" id="femalge">
+        </div>
+        <div>
+            <label for="otherg">other</label>
+            <input type="radio" name="gender" id="otherg">
+        </div>
+        <div>
+            <input type="button" value="submit">
+        </div>
+        
+      </fieldset>
+      <fieldset>
+        <legend>choose your favorite vehicle</legend>
+        <div>
+            <label for="v1">car</label>
+        <input type="radio" name="vehicle" id="v1">
+        </div>
+        <div>
+            <label for="v2">bike</label>
+        <input type="radio" name="vehicle" id="v2">
+        </div> <div>
+            <label for="v3">bicycle</label>
+        <input type="radio" name="vehicle" id="v3">
+        </div>
+        <div>
+            <input type="button" value="submit">
+        </div>
+      </fieldset>
+     <select name="favorite subject" id="">
+        <option value="electrical vehicle">electrical vehicle</option>
+        <option value="javascript bootcamp">javascript bootcamp</option>
+        <option value="data engineering">data engineering</option>
+        <div>
+            <input type="button" value="submit now">
+        </div>
+     </select>
+        
+    </form>
+</body>
+</html>
